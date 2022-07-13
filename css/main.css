@@ -1,0 +1,55 @@
+:root{
+    /*color pallette*/
+    --color-dark-blue:rgb(0, 39, 49);
+    --color-blue: rgb(0 66 82);
+    --color-light-blue: rgb(3 121 120);
+    --color-light-pink: rgb(171 155 126);
+    --color-pink: rgb(252 156 94);
+    --color-orange: rgb(202, 99, 55);
+    
+    --color-white-font: rgb(255, 255, 255);
+    --color-black-font: #2e2e2e;
+}
+
+html{
+    max-width: 1440px;
+    min-width: 320px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Anek Latin', sans-serif ;
+    overflow: hidden;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.section__title{
+    font-size: 1.8rem;
+    font-weight: 300;
+    height: 2.2rem;
+    width: 12vw;
+    color: var(--color-white-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section__subtitle{
+    font-size: 1.2rem;
+    color: var(--color-white-font);
+    font-weight: 300;
+    height: 2.2rem;
+}
+
+h5{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--color-black-font);
+}

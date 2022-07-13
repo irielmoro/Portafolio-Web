@@ -1,0 +1,39 @@
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: transparent ;
+    width: 100vw;
+    height: 5vh;
+    position: fixed;
+    z-index: 3;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    height: inherit;
+}
+
+.nav__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    font-size: 1.02rem;
+    font-weight: 300;
+    color: var(--color-white-font);
+    text-decoration: none;
+    transition: all 0.4s ease 0s;
+    padding: 0 0.7rem;
+}
+
+.nav__link:hover{
+    box-shadow: 0px 2px 20px -6px #1a1a1a;
+}
+
+/* .nav__link:is(:nth-child(1), :nth-child(2),:nth-child(3),:nth-child(4),:nth-child(5)){
+    border-right: 1px solid #002d3c;
+} */

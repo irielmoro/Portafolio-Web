@@ -1,0 +1,16 @@
+.contacto{
+    background: linear-gradient(var(--color-pink),var(--color-orange));
+}
+
+.form{height: 90vh;}
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    background: url(../img/background1-pexels-no-name-66997.jpg) no-repeat;
+
+}

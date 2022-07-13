@@ -1,0 +1,43 @@
+.formacion{
+    background: linear-gradient(var(--color-light-blue),var(--color-light-pink));
+}
+.formacion__main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 20%;
+    margin-bottom: 1rem;
+}
+
+.formacion__card{
+    width: 50%;
+    height: 7rem;
+    margin: 1rem;
+    display: grid;
+    grid-template-areas: "card__logo" "card__text";
+    grid-template-columns: 25% 80%;
+    grid-template-rows: 100%;
+    background: #fdfdfd;
+}
+
+.formacion__card__logo{
+    grid-area: card__logo;
+    width: 100%;
+    height: 100%;
+}
+
+.formacion__card__text{
+    color: var(--color-black-font);
+    font-size: .7rem;
+}
+
+.formacion__courses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 60%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
