@@ -3,16 +3,16 @@ header{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background: transparent ;
+    background: linear-gradient(rgb(18 18 18) -40%, transparent );
     width: 100vw;
-    height: 5vh;
+    height: 7vh;
     position: fixed;
     z-index: 3;
     
 }
 nav{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin-right: 1rem;
     height: inherit;
 }
@@ -21,7 +21,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: inherit;
+    height: 80%;
     font-size: 1.02rem;
     font-weight: 300;
     color: var(--color-white-font);
@@ -31,9 +31,6 @@ nav{
 }
 
 .nav__link:hover{
-    box-shadow: 0px 2px 20px -6px #1a1a1a;
+    background: #00000026;
+    box-shadow: 0px 2px 20px -6px #000000;
 }
-
-/* .nav__link:is(:nth-child(1), :nth-child(2),:nth-child(3),:nth-child(4),:nth-child(5)){
-    border-right: 1px solid #002d3c;
-} */

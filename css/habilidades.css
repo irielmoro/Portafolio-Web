@@ -1,10 +1,8 @@
 .habilidades{
-    background: linear-gradient(var(--color-blue), var(--color-light-blue));
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: normal;
+    background: url(../img/wave.svg) rgb(24 125 121 / 37%) no-repeat;
 }
+
 
 .habilidades__soft-container, .habilidades__hard-container{
     display: flex;
@@ -20,16 +18,6 @@
 .habilidades__hard-container{
     padding-right:9rem ;
 }
-
-
-.habilidades__item-soft{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
   
 .habilidades__item-hard{
     display: flex;
@@ -39,29 +27,17 @@
 }
 
 .habilidades__item-soft, .habilidades__item-hard{
-    background: rgb(0 0 0 / 65%);
+    background: #f1f1f1;
+    box-shadow: 4px 5px 12px -10px;
     width: 100%;
     height: 100%;
     margin-top: 1rem;
-}
-
-
-
-
-.habilidades__item{
-    width: 70px;
-    height: 70px;
-    margin: 3rem;
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
-.habilidades__item-img{
-    margin-bottom: .6rem;
-}
-.habilidades__item-title{
-    color: var(--color-white-font);
-    font-weight: 300;
-}
+
+
+

@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;300;500&display=swap" rel="stylesheet">
     <!--CUSTOM CSS-->
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/general.css">
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/inicio.css">
     <link rel="stylesheet" href="./css/sobre-mi.css">
@@ -25,7 +25,7 @@
 
     <header>
         <nav>
-            <a href="index.html" class="nav__link">Inicio</a>
+            <a href="#view-1" class="nav__link">Inicio</a>
             <a href="#view-2" class="nav__link">Sobre mí</a>
             <a href="#view-3" class="nav__link">Habilidades</a>
             <a href="#view-4" class="nav__link">Formación</a>
@@ -37,85 +37,128 @@
 
     <main>
 
-        <section class="inicio">
+        <main id="view-1" class="inicio">
             <div class="inicio__container-main">
+
+                <div class="inicio__animated-title">
+                    <div class="text-top">
+                      <div>
+                        <span>¡Hola!</span>
+                        <span>soy Iriel</span>
+                      </div>
+                    </div>
+                    <div class="text-bottom">
+                      <div>y construyo páginas webs...</div>
+                    </div>
+
+                    <div class="inicio__container-text">      
+                        <p class="inicio__text">Soy una aficionada por la programación y el desarrollo web. 
+                           <br> El aprendizaje autodidacta y la persevancia son mis características principales
+                    </div>
+                </div>
                
-                <h1 class="inicio__title">
-                    ¡Hola! Mi nombre es Iriel 
-                </h1>
-                <h2 class="inicio__subtitle">y construyo páginas webs...</h2>
-                <div class="inicio__container-text">      
-                    <p class="inicio__text">Soy una aficionada por la programación y el desarrollo web. 
-                       <br> El aprendizaje autodidacta y la persevancia son mis características principales...
-                       <br> ¿Querés saber más sobre mí? ¡Navegá a través de mi portafolio!</p>
+                <div class="inicio__container-photo">
+                    <div class="inicio__div-animation"></div>
+                    <img src="./img/foto-perfil.png" alt="photo-profile" class="inicio__photo">
+                    <h4 class="inicio__more-info">Más información:</h4>
+                    <div class="inicio__container-more-info">
+    
+                        <div class="inicio__link-container">
+                            <a class="inicio__circle-link" href="" target="_blank">
+                                <img src="img/icon-cv.png" alt="icon-cv">
+                            </a>
+                            <p class="inicio__link-title">CV</p>
+                        </div>
+                    
+                        <div class="inicio__link-container">
+                            <a class="inicio__circle-link" href="https://www.linkedin.com/in/iriel-moro/" target="_blank">
+                                <img src="img/icon-linkedin.png" alt="icon-linkedin">
+                            </a>
+                            <p class="inicio__link-title">Linkedin</p>
+                        </div>
+    
+                        <div class="inicio__link-container">
+                            <a class="inicio__circle-link" href="https://github.com/irielmoro" target="_blank">
+                                <img src="img/icon-github.png" alt="icon-github">
+                            </a>
+                            <p class="inicio__link-title">GitHub</p>
+                        </div>
                 </div>
             </div>
-            <div class="inicio__container-photo">
-                <div class="inicio__div-animation"></div>
-                <img src="./img/foto-perfil.png" alt="photo-profile" class="inicio__photo">
-                <h4 class="inicio__more-info">Más información:</h4>
-                <div class="inicio__container-more-info">
-
-                    <div class="inicio__link-container">
-                        <a class="inicio__circle-link" href="" target="_blank">
-                            <img src="img/icon-cv.png" alt="icon-cv">
-                        </a>
-                        <p class="inicio__link-title">CV</p>
-                    </div>
-                
-                    <div class="inicio__link-container">
-                        <a class="inicio__circle-link" href="https://www.linkedin.com/in/iriel-moro/" target="_blank">
-                            <img src="img/icon-linkedin.png" alt="icon-linkedin">
-                        </a>
-                        <p class="inicio__link-title">Linkedin</p>
-                    </div>
-
-                    <div class="inicio__link-container">
-                        <a class="inicio__circle-link" href="https://github.com/irielmoro" target="_blank">
-                            <img src="img/icon-github.png" alt="icon-github">
-                        </a>
-                        <p class="inicio__link-title">GitHub</p>
-                    </div>
-            </div>
-        </section>
+            
+        </main>
 
 
         <section id="view-2" class="sobre-mi">
-            <h2 class="section__title">Sobre mí</h2>
+            <div class="sobre-mi__info-container">
+                <h2 class="section__title">Sobre mí</h2>
+                <div class="sobre-mi__info">
+                    <p class="sobre-mi__text">Me llamo Iriel Moro, tengo 21 años y vivo en Mendoza, Argentina. Actualmente estoy participando del progama ONE de Oracle + AluraLatam. Soy aspirante a la Tecnicatura en Programación en la UTN y también estudio inglés. Me considero una persona de mente abierta, dispuesta aprender en todo momento. 
+                        <br> Mi objetivo es poder ser parte del mundo IT, relacionado al rubro de programación que tanto me apasiona y adquirir mi primer experencia laboral para poner en práctica mis conocimientos y aprender mucho más, con el fin de desarrolarme tanto profesional como peronalmente. 
+                    </p>
+                    </div>
+            </div>
+            
+
+            <div class="sobre-mi__hobbies-container">
+
+                <h2 class="section__title">Hobbies</h2>
+                <div class="sobre-mi__hobbies-items">
+    
+                    <div class="hobbie-item item">
+                        <img src="./img/music-icon.png" alt="" class="hobbies-item-img">
+                        <p class="item-title">Escuchar música</p>
+                    </div>
+                    <div class="hobbie-item item">
+                        <img src="./img/game-icon.png" alt="" class="hobbies-item-img">
+                        <p class="item-title">Jugar videojuegos</p>
+                    </div>
+                    <div class="hobbie-item item">
+                        <img src="./img/park-icon.png" alt="" class="hobbies-item-img">
+                        <p class="item-title">Salir a pasear</p>
+                    </div>
+                    <div class="hobbie-item item">
+                        <img src="./img/film-icon.png" alt="" class="hobbies-item-img">
+                        <p class="item-title">Ver películas</p>
+                    </div>
+                </div>
+
+            </div>
+
+            
         </section>
 
 
 
         <section id="view-3" class="habilidades">
-            
             <div class="habilidades__soft-container">
                 <h2 class="section__title">Soft Skills</h2>
 
                 <div class="habilidades__item-soft">
 
-                    <div class="habilidades__item">
-                        <img src="./img/equipo.png" alt="" class="habilidades__item-img">
-                        <p class="habilidades__item-title">Trabajo en equipo</p>
+                    <div class="item">
+                        <img src="./img/equipo.png" alt="" class="item-img">
+                        <p class="item-title">Trabajo en equipo</p>
                     </div>
-                    <div class="habilidades__item">
-                        <img src="./img/asertividad.png" alt="" class="habilidades__item-img">
-                        <p class="habilidades__item-title">Asertividad</p>
+                    <div class="item">
+                        <img src="./img/asertividad.png" alt="" class="item-img">
+                        <p class="item-title">Asertividad</p>
                     </div>
-                    <div class="habilidades__item">
-                        <img src="./img/etica.png" alt="" class="habilidades__item-img">
-                        <p class="habilidades__item-title">Ética</p>
+                    <div class="item">
+                        <img src="./img/etica.png" alt="" class="item-img">
+                        <p class="item-title">Ética</p>
                     </div>
-                    <div class="habilidades__item">
-                        <img src="./img/escucha.png" alt="" class="habilidades__item-img">
-                        <p class="habilidades__item-title">Escucha Activa</p>
+                    <div class="item">
+                        <img src="./img/escucha.png" alt="" class="item-img">
+                        <p class="item-title">Escucha Activa</p>
                     </div>
-                    <div class="habilidades__item">
-                        <img src="./img/resp.png" alt="" class="habilidades__item-img">
-                        <p class="habilidades__item-title">Responsabilidad</p>
+                    <div class="item">
+                        <img src="./img/resp.png" alt="" class="item-img">
+                        <p class="item-title">Responsabilidad</p>
                     </div>
-                    <div class="habilidades__item">
-                        <img src="./img/empatia.png" alt="" class="habilidades__item-img">
-                        <p class="habilidades__item-title">Empatía</p>
+                    <div class="item">
+                        <img src="./img/empatia.png" alt="" class="item-img">
+                        <p class="item-title">Empatía</p>
                     </div>
 
                 </div>
@@ -128,17 +171,29 @@
 
                 <div class="habilidades__item-hard">
 
-                    <div class="habilidades__item">
-                        <img src="./img/html-icon.png" alt="" class="habilidades__item-img">
-                        <p class="habilidades__item-title">HTML5</p>
+                    <div class="item">
+                        <img src="./img/html-icon.png" alt="" class="item-img">
+                        <p class="item-title">HTML5</p>
                     </div>
-                    <div class="habilidades__item">
-                        <img src="./img/css-icon.png" alt="" class="habilidades__item-img">
-                        <p class="habilidades__item-title">CSS3</p>
+                    <div class="item">
+                        <img src="./img/css-icon.png" alt="" class="item-img">
+                        <p class="item-title">CSS3</p>
                     </div>
-                    <div class="habilidades__item">
-                        <img src="./img/js-icon.png" alt="" class="habilidades__item-img">
-                        <p class="habilidades__item-title">JavaScript</p>
+                    <div class="item">
+                        <img src="./img/js-icon.png" alt="" class="item-img">
+                        <p class="item-title">JavaScript</p>
+                    </div>
+                    <div class="item">
+                        <img src="./img/figma-icon.png" alt="" class="item-img">
+                        <p class="item-title">Figma</p>
+                    </div>
+                    <div class="item">
+                        <img src="./img/bootstrap.png" alt="" class="item-img">
+                        <p class="item-title">Boostrap</p>
+                    </div>
+                    <div class="item">
+                        <img src="./img/git-icon.png" alt="" class="item-img">
+                        <p class="item-title">Git</p>
                     </div>
 
                 </div>
@@ -147,6 +202,7 @@
         </section>
 
         <section id="view-4" class="formacion">
+
             <h2 class="section__title">Formación</h2>
                 <div class="formacion__main">
 
@@ -157,13 +213,15 @@
                                 <h5 class="formacion__card__title">ESO - Colegio Normal Tomas Godoy Cruz</h5>
                                 <time class="formacion__card__time" datetime="2013-2018">2013-2018</time>
                             </div>
-                            <div class="formacion__card__description"> </div>
+                            <div class="formacion__card__description">Escuela Secundaria Obligatoria</div>
+                            <div class="formacion__btn-certificado">Ver certificado <img src="./img/arrow-up-right-from-square-solid.svg" class="arrow-up-right"></div>
                         </div>
                     </div>
 
                 </div>
 
                 <h2 class="section__title">Cursos</h2>
+
                 <div class="formacion__courses">
 
                     <div class="formacion__card">
@@ -171,29 +229,26 @@
                         <div class="formacion__card__text">
                             <div class="formacion__card__header">
                                 <h5 class="formacion__card__title">Junior Achievement - Soporte IT</h5>
-                                <time class="formacion__card__time" datetime="2013-2018">08/2021 - 12/2021</time>
+                                <time class="formacion__card__time" datetime="08/2021 - 12/2021">08/2021 - 12/2021</time>
                             </div>
-                            <div class="formacion__card__description">Especialización de Crece con Google Soporte en Tecnologías de la información de Google. <br>Aspectos básicos de la asistencia técnica. Redes informáticas
-                                Sistemas operativos.
-                                Administración de sistemas y servicios de infraestructura de TI.
-                                Seguridad informática.</div>
+                            <div class="formacion__card__description">Especialización de Crece con Google Soporte IT.
+                            </div>
+                            <div class="formacion__btn-certificado">Ver certificado <img src="./img/arrow-up-right-from-square-solid.svg" class="arrow-up-right"></div>
                         </div>
                     </div>
+
 
                     <div class="formacion__card">
                         <img src="./img/alura.jpg" class="formacion__card__logo"></img>
                         <div class="formacion__card__text">
                             <div class="formacion__card__header">
-                                <h5 class="formacion__card__title">Alura Latam - Programa ONE - Oracle Next Education | Desarrollo web</h5>
-                                <time class="formacion__card__time" datetime="2013-2018">04/2021 - 10/2021</time>
+                                <h5 class="formacion__card__title">Alura Latam - ONE | Desarrollo web</h5>
+                                <time class="formacion__card__time" datetime="04/2021 - 10/2021">04/2021 - 10/2021</time>
                             </div>
                             <div class="formacion__card__description"> 
-                                <ul>
-                                    <li>•Lógica de Programación y Front-End (HTML5, CSS3, JavaScript, Jquery, Diseño Web Receptivo)</li>
-                                    <li>•Java Jr.</li>
-                                    <li>•Emprendimiento y Habilidades blandas</li>
-                                </ul>
+                               Lógica de Programación. Front-End. Java Jr.</li>
                             </div>
+                            <div class="formacion__btn-certificado">Ver certificado <img src="./img/arrow-up-right-from-square-solid.svg" class="arrow-up-right"></div>
                         </div>
                     </div>
 
@@ -202,9 +257,11 @@
                         <div class="formacion__card__text">
                             <div class="formacion__card__header">
                                 <h5 class="formacion__card__title">Instituto Cultural de Mendoza</h5>
-                                <time class="formacion__card__time" datetime="2013-2018">2013-2018</time>
+                                <time class="formacion__card__time" datetime="03/2021 - 11/2021">03/2021 - 11/2021</time>
                             </div>
-                            <div class="formacion__card__description"> </div>
+                            <div class="formacion__card__description">Idioma Inglés A2</div>
+                            <div class="formacion__btn-certificado">Ver certificado <img src="./img/arrow-up-right-from-square-solid.svg" class="arrow-up-right"></div>
+                            
                         </div>
                     </div>
 
@@ -214,38 +271,110 @@
 
         <section id="view-5" class="proyectos">
             <h2 class="section__title">Proyectos</h2>
+
+           <div class="proyectos__container">
+
+                <div class="proyectos__frame">
+                    <img src="./img/frame.png" class="frame-img">
+                    <div class="proyectos__card">
+                        <img src="./img/Encriptador.png" alt="proyecto-encriptador" class="proyectos__card-img">
+                        <div class="proyectos__card-text-container">
+                            <div   div class="proyectos__card-text">
+                                <p class="proyectos__card-title">Encriptador de texto</p>
+                                <ul class="proyectos__card-languages"><li>HTML</li><li>CSS</li><li>JavaScript</li>
+                                </ul>
+                                <p class="proyectos__card-description">Mediante la transformación de vocales a una palabra clave, encripta y desencripta el texto ingresado...</p>
+                                
+                                <div class="proyectos__buttons">
+                                    <button class="proyectos__btn">Demo</button>
+                                    <button class="proyectos__btn">Repo</button>
+                                </div> 
+                            </div>  
+                       
+                    </div>   
+                    </div>
+                    
+                </div>
+
+                <div class="proyectos__frame">
+                    <img src="./img/frame.png" class="frame-img">
+                    <div class="proyectos__card">
+                        <img src="./img/JuegoAhorcado.png" alt="proyecto-ahorcado" class="proyectos__card-img">
+                        <div class="proyectos__card-text-container">
+                            <div class="proyectos__card-text">
+                                <p class="proyectos__card-title">Juego del Ahorcado</p>
+                                <ul class="proyectos__card-languages"><li>HTML</li><li>CSS</li><li>JavaScript</li>
+                                </ul>
+                                <p class="proyectos__card-description">El clásico juego de adivinar la palabra con intentos limitados hasta que la víctima muere o adivines...</p>
+                        
+                                <div class="proyectos__buttons">
+                                    <button class="proyectos__btn">Demo</button>
+                                    <button class="proyectos__btn">Repo</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+           </div>
         </section>
 
         <section id="view-6" class="contacto">
-            <div class="form">formulario</div>
-
-
-            <footer> Iriel Moro 2022
-                <div class="inicio__link-container">
-                    <a class="inicio__circle-link" href="" target="_blank">
-                        <img src="img/icon-cv.png" alt="icon-cv">
-                    </a>
-                    <p class="inicio__link-title">CV</p>
-                </div>
-            
-                <div class="inicio__link-container">
-                    <a class="inicio__circle-link" href="https://www.linkedin.com/in/iriel-moro/" target="_blank">
-                        <img src="img/icon-linkedin.png" alt="icon-linkedin">
-                    </a>
-                    <p class="inicio__link-title">Linkedin</p>
-                </div>
-
-                <div class="inicio__link-container">
-                    <a class="inicio__circle-link" href="https://github.com/irielmoro" target="_blank">
-                        <img src="img/icon-github.png" alt="icon-github">
-                    </a>
-                    <p class="inicio__link-title">GitHub</p>
-                </div>
-            </footer>
+            <h2 class="section__title">Contacto</h2>
+            <div class="form-container">
+                <form class="contacto__form">
+                    <label for="nombre">Nombre</label> 
+                    <input type="text" id="nombre" class="contacto__input" required> 
+    
+                    <label for="correoelectronico">Correo Electrónico</label>  <!--required: campo obligatorio. placeholder: guia texto/sugerencia para el usario-->
+                    <input type="email" id="correoelectronico" class="contacto__input" required placeholder="email@dominio.com"><!--type:emil Crea un recuadro para escrbir una dirrecion de email-->
+    
+                    <label for="asunto">Asunto</label>
+                    <input type="text" id="asunto" class="contacto__input" required>
+    
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje"  rows="5" class="contacto__input" required></textarea> <!--columnasx70 y filasx10-->
+                
+                    <input type="submit" value="Enviar" class="contacto__btn-enviar">
+                
+                </form>
+            </div>
         </section>
+
+        <footer> 
+
+            <div class="wave-footer"><img src="./img/wavesOpacity-footer.svg" alt=""></div>
+            <div class="footer">
+                Iriel Moro 2022
+
+            </div>
+            <div class="inicio__link-container">
+                <a class="inicio__circle-link" href="" target="_blank">
+                    <img src="img/icon-cv.png" alt="icon-cv">
+                </a>
+                <p class="inicio__link-title">CV</p>
+            </div>
+        
+            <div class="inicio__link-container">
+                <a class="inicio__circle-link" href="https://www.linkedin.com/in/iriel-moro/" target="_blank">
+                    <img src="img/icon-linkedin.png" alt="icon-linkedin">
+                </a>
+                <p class="inicio__link-title">Linkedin</p>
+            </div>
+
+            <div class="inicio__link-container">
+                <a class="inicio__circle-link" href="https://github.com/irielmoro" target="_blank">
+                    <img src="img/icon-github.png" alt="icon-github">
+                </a>
+                <p class="inicio__link-title">GitHub</p>
+            </div>
+        </footer>
+
     </main>
     
 
-
+<!--SCROLL REVEAL-->
+<script src="https://unpkg.com/scrollreveal"></script>
+<!--CUSTOM JS-->  
 </body>
 </html>

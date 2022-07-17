@@ -1,3 +1,50 @@
 .sobre-mi{
-    background: linear-gradient(var(--color-dark-blue),var(--color-blue));
+    display: flex;
+    background: wheat;
+    height: 45vh;
+    border-top: 10px solid #f1f1f1;
+}
+
+.sobre-mi__info-container, .sobre-mi__hobbies-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2rem 0;
+}
+
+.sobre-mi__info-container{
+    margin-right: 2.3rem;
+    width: 83%;
+}
+
+.sobre-mi__info{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.sobre-mi__photo{
+    border-radius: 50%;
+    margin-right: 1.3rem;
+}
+
+.sobre-mi__text{
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+
+.sobre-mi__hobbies-items{
+    display: flex;
+    margin-top: 1rem;
+    width: 81%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.hobbie-item {
+    margin: 0.1rem;
+    padding: 1rem;
+}
+.hobbies-item-img{
+    width: 32%;
 }

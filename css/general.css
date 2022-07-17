@@ -1,0 +1,65 @@
+:root{
+    /*color pallette*/
+    --color-dark-blue: rgb(0 27 33);
+    --color-blue: rgb(0 58 74);
+    --color-light-blue: rgb(24 125 121);
+    --color-light-pink: rgb(171 155 126);
+    --color-pink: rgb(252 156 94);
+    --color-orange: rgb(202, 99, 55);
+    
+    --color-white-font: rgb(255, 255, 255);
+    --color-black-font: #2e2e2e;
+}
+
+html{
+    background: wheat;
+    max-width: 1440px;
+    min-width: 320px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Anek Latin', sans-serif ;
+}
+
+
+
+section{
+    display: flex;
+
+    padding: 5vh 2rem;
+}
+
+.section__title{
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: var(--color-black-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+
+.item{
+    background: #f1f1f1;
+    width: 70px;
+    height: 70px;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    transition: all 0.6s;
+}
+.item:hover{
+    box-shadow: 0px 2px 20px -6px #1a1a1a8f;
+    transform: translateY(-1px);
+}
+
+.item-img{
+    margin-bottom: .6rem;
+}
+.item-title{
+    color: var(--color-black-font);
+    font-weight: 300;
+}
